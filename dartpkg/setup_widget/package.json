@@ -1,0 +1,21 @@
+{
+  "name": "@v42one/dart_setup_widget",
+  "version": "0.1.0",
+  "description": "setup widget inspired by vue",
+  "dart": {
+    "dependencies": {
+      "flutter": "sdk:flutter",
+      "rxdart": "^0.27.7",
+      "provider": "^6.0.5"
+    }
+  },
+  "dependencies": {
+  },
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dep": "flutter pub get",
+    "lint": "dart fix --apply && dart format -o write ./lib",
+    "test": "flutter test"
+  }
+}

@@ -1,0 +1,7 @@
+dependency_overrides:
+  context:
+    path: ../context
+  roundtripper:
+    path: ../roundtripper
+  logr:
+    path: ../logr

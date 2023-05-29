@@ -1,0 +1,14 @@
+{
+  "name": "@v42one/dart_logr",
+  "version": "0.1.0",
+  "dependencies": {
+    "@v42one/dart_context": "workspace:^"
+  },
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dep": "flutter pub get",
+    "lint": "dart fix --apply && dart format -o write ./lib",
+    "test": "dart test"
+  }
+}

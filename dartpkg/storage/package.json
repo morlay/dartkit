@@ -1,0 +1,16 @@
+{
+  "name": "@v42one/dart_storage",
+  "version": "0.1.0",
+  "description": "blob storage",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "lib/",
+    "pubspec.yaml"
+  ],
+  "scripts": {
+    "dep": "flutter pub get",
+    "lint": "dart fix --apply && dart format -o write ./lib",
+    "test": "dart test"
+  }
+}

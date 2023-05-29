@@ -1,0 +1,12 @@
+{
+  "name": "@v42one/dart_context",
+  "version": "0.1.0",
+  "description": "pure golang context.Context implements in dart",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dep": "flutter pub get",
+    "lint": "dart fix --apply && dart format -o write ./lib",
+    "test": "dart test"
+  }
+}

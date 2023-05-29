@@ -1,0 +1,23 @@
+{
+  "name": "@v42one/dart_roundtripper",
+  "description": "another composable, Future-based library for making HTTP requests",
+  "version": "0.1.0",
+  "dependencies": {
+    "@v42one/dart_context": "workspace:^",
+    "@v42one/dart_logr": "workspace:^"
+  },
+  "dart": {
+    "build": {
+      "source_gen|combining_builder": {},
+      "freezed": {}
+    }
+  },
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dep": "flutter pub get",
+    "lint": "dart fix --apply && dart format -o write ./lib",
+    "test": "dart test",
+    "gen": "dart run build_runner build --delete-conflicting-outputs"
+  }
+}
